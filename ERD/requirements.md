@@ -79,4 +79,4 @@ Database Specification - AirBnB
 
 ## Diagram
 
-![diagram-export-5-11-2025-1_23_23-PM](https://github.com/user-attachments/assets/393c2c0f-2411-426f-a038-38ad928d231f)
+![diagram-export-5-11-2025-1_34_28-PM](https://github.com/user-attachments/assets/55df41b3-dfde-46eb-932b-be74fddf5494)

@@ -9,7 +9,7 @@ WHERE property_id IN (
 
 -- Write a correlated subquery to find users who have made more than 3 bookings.
 
-SELECT * FROM users u
+SELECT count(*) FROM users u
 WHERE (
 SELECT count(*)
 FROM booking b

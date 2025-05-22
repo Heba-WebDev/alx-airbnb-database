@@ -5,5 +5,5 @@ CREATE INDEX idx_property_location ON property(location);
 
 CREATE INDEX idx_user_id ON bookings(user_id);
 
-EXPLAIN SELECT * FROM User WHERE Email = 'test_indexing@gmail.com';
+EXPLAIN ANALYZE SELECT * FROM User WHERE Email = 'test_indexing@gmail.com';
 

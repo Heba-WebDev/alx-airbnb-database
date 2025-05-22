@@ -1,7 +1,7 @@
 -- Joins all related tables, regardless of whether all fields are needed
 
 SELECT * FROM bookings
-JOIN users ON bookings.user_id = users.user_id
+JOIN users ON bookings.user_id = users.user_id WHERE id = 1 AND email = 'test@test.com',
 JOIN property ON bookings.property_id = property.property_id
 JOIN payments ON bookings.booking_id = payments.booking_id;
 
